@@ -1,0 +1,57 @@
+@verdi rc file Version 1.0
+[General]
+saveDB = TRUE
+relativePath = FALSE
+saveSingleView = FALSE
+saveNWaveWinId = 
+VerdiVersion = Verdi_O-2018.09-SP2
+[KeyNote]
+Line1 = Automatic Backup 0
+Line2 = Save Open Database Information: Yes
+Line3 = Path Option: Absolute Paths
+Line4 = Windows Option: All Windows
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+Console = FALSE
+powerDumped = 0
+[hb]
+viewport = 71 26 1848 1016 0 0 386 1846
+activeNode = "cordic_unit_tb"
+activeScope = "cordic_unit_tb"
+activeFile = "/home/host/cva6/cordic_unit/cordic_unit_tb.sv"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 2
+baMode = False
+srcLineNum = True
+AutoWrap = True
+IdentifyFalseLogic = False
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+powerAwareAnnot = True
+amsAnnot = True
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+Scope1 = "cordic_unit_tb"
+multipleSelection = 1 2 2 0 0
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.design]
+importCmd = "/home/host/cva6/cordic_unit/ariane_pkg.sv" "/home/host/cva6/cordic_unit/riscv_pkg.sv" "/home/host/cva6/cordic_unit/config_pkg.sv" "/home/host/cva6/cordic_unit/cordic_unit.sv" "/home/host/cva6/cordic_unit/cordic_unit_tb.sv" "/home/host/cva6/cordic_unit/fix\
+642float.sv" "/home/host/cva6/cordic_unit/float2fix64.sv" "/home/host/cva6/cordic_unit/sin_cos.sv" "/home/host/cva6/cordic_unit/cv32a6_imafc_sv32_config_pkg.sv" "-sv" 
+workPath = /home/host/cva6/cordic_unit
+invokeDir = /home/host/cva6/cordic_unit
+[hb.sourceTab.1]
+scope = cordic_unit_tb
+File = /home/host/cva6/cordic_unit/cordic_unit_tb.sv
+Line = 3

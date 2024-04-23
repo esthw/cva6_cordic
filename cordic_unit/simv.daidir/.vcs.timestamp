@@ -1,0 +1,164 @@
+0 
+38
++cli+1
++define+FSDB
++itf+/opt/synopsys/vcs201809/linux64/lib/vcsdp.tab
++memcbk
++vcd+vcdpluson
++vcsd
++vpi
+-F ./file.fl
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/opt/synopsys/vcs201809/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -Wl,--no-as-needed -rdynamic
+-Mobjects= /opt/synopsys/vcs201809/linux64/lib/libvirsim.so /opt/synopsys/vcs201809/linux64/lib/liberrorinf.so /opt/synopsys/vcs201809/linux64/lib/libsnpsmalloc.so /opt/synopsys/vcs201809/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/opt/synopsys/vcs201809/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/opt/synopsys/verdi201809/share/PLI/VCS/LINUX64/pli.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/opt/synopsys/vcs201809/include
+-P
+-Xcbug=0x1
+-Xvcs_run_simv=1
+-debug=1
+-fsdb
+-full64
+-gen_obj
+-l
+-picarchive
+-sverilog
+-timescale=1ns/1ps
+/opt/synopsys/vcs201809/linux64/bin/vcs1
+/opt/synopsys/verdi201809/share/PLI/VCS/LINUX64/verdi.tab
+run.log
+100
+sysc_uni_pwd=/home/host/cva6/cordic_unit
+novas_args=-P /opt/synopsys/verdi201809/share/PLI/VCS/LINUX64/novas.tab   /opt/synopsys/verdi201809/share/PLI/VCS/LINUX64/pli.a 
+no_proxy=localhost,127.0.0.0/8,::1
+https_proxy=http://127.0.0.1:15732/
+http_proxy=http://127.0.0.1:15732/
+ftp_proxy=http://127.0.0.1:15732/
+XMODIFIERS=@im=ibus
+XDG_SESSION_TYPE=x11
+XDG_SESSION_DESKTOP=ubuntu
+XDG_SESSION_CLASS=user
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_MENU_PREFIX=gnome-
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+XDG_CURRENT_DESKTOP=ubuntu:GNOME
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+XAUTHORITY=/run/user/1000/gdm/Xauthority
+WINDOWPATH=2
+VTE_VERSION=6003
+VMR_MODE_FLAG=64
+VERDI_HOME=/opt/synopsys/verdi201809
+VCS_TARGET_ARCH=amd64
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LOG_FILE=run.log
+VCS_HOME=/opt/synopsys/vcs201809
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=linux
+VCS_ARCH=linux64
+USERNAME=host
+UNAME=/bin/uname
+TOOL_HOME=/opt/synopsys/vcs201809/linux64
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SSH_AGENT_PID=1551
+SPIKE_INSTALL_DIR=/home/host/cva6/tools/spike
+SNPS_VCS_INTERNAL_UBUNTU_PRE_LDFLAGS= -no-pie 
+SNPSYS_HOME=/opt/synopsys
+SESSION_MANAGER=local/host-virtual-machine:@/tmp/.ICE-unix/1586,unix/host-virtual-machine:/tmp/.ICE-unix/1586
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+RISCV_PREFIX=/usr/local/bin/riscv64-unknown-elf
+RISCV_GCC=/usr/local/bin/riscv64-unknown-elf-gcc
+RISCV=/usr/local
+QT_IM_MODULE=ibus
+QT_ACCESSIBILITY=1
+PAPERSIZE\tDEFAULT=a4
+OVA_UUM=0
+NO_PROXY=localhost,127.0.0.0/8,::1
+NOVAS_PLI=/opt/synopsys/verdi201809/share/PLI/VCS/LINUX64
+NOVAS_HOME=/opt/synopsys/verdi201809
+NOVAS=/opt/synopsys/verdi201809/share/PLI/VCS/LINUX64
+MFLAGS=
+MANAGERPID=1456
+MAKE_TERMOUT=/dev/pts/2
+MAKE_TERMERR=/dev/pts/2
+MAKELEVEL=1
+MAKEFLAGS=
+LESSOPEN=| /usr/bin/lesspipe %s
+LESSCLOSE=/usr/bin/lesspipe %s %s
+LC_TIME\tDEFAULT=zh_CN.UTF-8
+LC_TIME=zh_CN.UTF-8
+LC_TELEPHONE\tDEFAULT=zh_CN.UTF-8
+LC_TELEPHONE=zh_CN.UTF-8
+LC_PAPER\tDEFAULT=zh_CN.UTF-8
+LC_PAPER=zh_CN.UTF-8
+LC_NUMERIC\tDEFAULT=zh_CN.UTF-8
+LC_NUMERIC=zh_CN.UTF-8
+LC_NAME\tDEFAULT=zh_CN.UTF-8
+LC_NAME=zh_CN.UTF-8
+LC_MONETARY\tDEFAULT=zh_CN.UTF-8
+LC_MONETARY=zh_CN.UTF-8
+LC_MEASUREMENT\tDEFAULT=zh_CN.UTF-8
+LC_MEASUREMENT=zh_CN.UTF-8
+LC_IDENTIFICATION\tDEFAULT=zh_CN.UTF-8
+LC_IDENTIFICATION=zh_CN.UTF-8
+LC_ALL=C
+LC_ADDRESS\tDEFAULT=zh_CN.UTF-8
+LC_ADDRESS=zh_CN.UTF-8
+LANG\tDEFAULT=zh_CN.UTF-8
+LANGUAGE\tDEFAULT=zh_CN:en
+JOURNAL_STREAM=8:53554
+INVOCATION_ID=31107c0378cc4a4fac8b41c5ab1020d1
+IM_CONFIG_PHASE=1
+HTTP_PROXY=http://127.0.0.1:15732/
+HTTPS_PROXY=http://127.0.0.1:15732/
+GTK_MODULES=gail:atk-bridge
+GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+GNOME_TERMINAL_SERVICE=:1.92
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/1349227c_8083_4113_bcbb_73cc7b7e6229
+GNOME_SHELL_SESSION_MODE=ubuntu
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GDMSESSION=ubuntu
+FTP_PROXY=http://127.0.0.1:15732/
+DVE_HOME=/opt/synopsys/vcs201809/gui/dve
+DESKTOP_SESSION=ubuntu
+DBUS_STARTER_BUS_TYPE=session
+DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=0a1811613a78be8b95475aed662214e4
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=0a1811613a78be8b95475aed662214e4
+CV_SW_PREFIX=riscv64-unknown-elf-
+COLORTERM=truecolor
+0
+14
+1710990102 fix_float_conversion.svh
+1713778733 ./cordic_unit_tb.sv
+1711007194 ./cordic_unit.sv
+1713775367 ./sin_cos.sv
+1710990102 ./float2fix64.sv
+1710990102 ./fix642float.sv
+1710990102 ./fix_float_conversion.svh
+1710990102 ./ariane_pkg.sv
+1710990102 ./riscv_pkg.sv
+1710990102 ./cv32a6_imafc_sv32_config_pkg.sv
+1710990102 ./config_pkg.sv
+1711006648 ./file.fl
+1551421246 /opt/synopsys/vcs201809/linux64/lib/vcsdp.tab
+1550753332 /opt/synopsys/verdi201809/share/PLI/VCS/LINUX64/verdi.tab
+4
+1551422344 /opt/synopsys/vcs201809/linux64/lib/libvirsim.so
+1551421792 /opt/synopsys/vcs201809/linux64/lib/liberrorinf.so
+1551421768 /opt/synopsys/vcs201809/linux64/lib/libsnpsmalloc.so
+1551421789 /opt/synopsys/vcs201809/linux64/lib/libvfs.so
+1713778807 simv.daidir
+-1 partitionlib

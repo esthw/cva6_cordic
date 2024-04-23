@@ -1,0 +1,297 @@
+*design* DebussyLib (btIdent Verdi_O-2018.09-SP2)
+Command arguments:
+    +define+verilog
+    /home/host/cva6/cordic_unit/ariane_pkg.sv
+    /home/host/cva6/cordic_unit/riscv_pkg.sv
+    /home/host/cva6/cordic_unit/config_pkg.sv
+    /home/host/cva6/cordic_unit/cordic_unit.sv
+    /home/host/cva6/cordic_unit/cordic_unit_tb.sv
+    /home/host/cva6/cordic_unit/fix642float.sv
+    /home/host/cva6/cordic_unit/float2fix64.sv
+    /home/host/cva6/cordic_unit/sin_cos.sv
+    /home/host/cva6/cordic_unit/cv32a6_imafc_sv32_config_pkg.sv
+    -sv
+
+
+*Error* Deferred constant riscv was not initialized.
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 68: 
+
+*Error* Syntax error at ::
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 68: 
+
+*Warning* symbol riscv duplicated
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 69: 
+
+*Error* Deferred constant riscv was not initialized.
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 69: 
+
+*Error* Syntax error at ::
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 69: 
+
+*Error* Syntax error at struct
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 172: 
+
+*Warning* symbol riscv duplicated
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 173: 
+
+*Error* Syntax error at ::
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 173: 
+
+*Warning* symbol riscv duplicated
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 174: 
+
+*Error* Syntax error at ::
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 174: 
+
+*Error* Syntax error at }
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 177: 
+
+*Error* Syntax error at struct
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 261: 
+
+*Warning* symbol riscv duplicated
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 262: 
+
+*Error* Syntax error at ::
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 262: 
+
+*Warning* symbol riscv duplicated
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 263: 
+
+*Error* Syntax error at ::
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 263: 
+
+*Warning* symbol riscv duplicated
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 264: 
+
+*Error* Syntax error at ::
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 264: 
+
+*Error* Syntax error at }
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 267: 
+
+*Error* Syntax error at struct
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 560: 
+
+*Warning* symbol riscv duplicated
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 563: 
+
+*Error* Syntax error at ::
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 563: 
+
+*Warning* symbol riscv duplicated
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 564: 
+
+*Error* Syntax error at ::
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 564: 
+
+*Warning* symbol riscv duplicated
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 565: 
+
+*Error* Syntax error at ::
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 565: 
+
+*Error* Syntax error at }
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 567: 
+
+*Error* Syntax error at struct
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 653: 
+
+*Warning* symbol valid duplicated
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 654: 
+
+*Warning* symbol riscv duplicated
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 657: 
+
+*Error* Syntax error at ::
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 657: 
+
+*Warning* symbol fu duplicated
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 659: 
+
+*Warning* symbol operation duplicated
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 660: 
+
+*Warning* symbol trans_id duplicated
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 661: 
+
+*Error* Syntax error at }
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 662: 
+
+*Error* Syntax error at struct
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 668: 
+
+*Error* Syntax error at ex
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 672: 
+
+*Error* Syntax error at }
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 673: 
+
+*Error* Syntax error at struct
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 681: 
+
+*Warning* symbol trans_id duplicated
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 683: 
+
+*Warning* symbol fu duplicated
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 685: 
+
+*Warning* symbol riscv duplicated
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 690: 
+
+*Error* Syntax error at ::
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 690: 
+
+*Warning* symbol valid duplicated
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 694: 
+
+*Warning* symbol exception_t duplicated
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 698: 
+
+*Error* Syntax error at ex
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 698: 
+
+*Error* Syntax error at }
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 703: 
+
+*Error* Syntax error at struct
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 739: 
+
+*Warning* symbol valid duplicated
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 740: 
+
+*Warning* symbol riscv duplicated
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 745: 
+
+*Error* Syntax error at ::
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 745: 
+
+*Error* Syntax error at }
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 746: 
+
+*Error* Syntax error at struct
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 752: 
+
+*Warning* symbol valid duplicated
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 753: 
+
+*Warning* symbol vpn duplicated
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 755: 
+
+*Warning* symbol asid duplicated
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 756: 
+
+*Warning* symbol riscv duplicated
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 757: 
+
+*Error* Syntax error at ::
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 757: 
+
+*Error* Syntax error at }
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 758: 
+
+*Error* Syntax error at struct
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 770: 
+
+*Warning* symbol exception_t duplicated
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 773: 
+
+*Error* Syntax error at fetch_exception
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 773: 
+
+*Error* Syntax error at }
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 774: 
+
+*Error* Syntax error at struct
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 790: 
+
+*Warning* symbol valid duplicated
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 792: 
+
+*Warning* symbol vaddr duplicated
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 795: 
+
+*Warning* symbol exception_t duplicated
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 796: 
+
+*Error* Syntax error at ex
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 796: 
+
+*Error* Syntax error at }
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 797: 
+
+*Error* Syntax error at struct
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 818: 
+
+*Warning* symbol riscv duplicated
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 821: 
+
+*Error* Syntax error at ::
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 821: 
+
+*Error* Syntax error at }
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 830: 
+
+*Error* Syntax error at struct
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 832: 
+
+*Warning* symbol riscv duplicated
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 836: 
+
+*Error* Syntax error at ::
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 836: 
+
+*Error* Syntax error at }
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 838: 
+
+*Error* failed to find symbol 'riscv'
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 843: 
+
+*Error* failed to find symbol 'riscv'
+"/home/host/cva6/cordic_unit/ariane_pkg.sv", 879: 
+
+*Error* Syntax error at fu_data_i
+"/home/host/cva6/cordic_unit/cordic_unit.sv", 9: 
+
+*Error* failed to find symbol 'fu_data_i'
+"/home/host/cva6/cordic_unit/cordic_unit_tb.sv", 11: 
+Highest level modules:
+cordic_unit_tb
+
+
+*Error* failed to find identifier fu_data_i.operand_a
+"/home/host/cva6/cordic_unit/cordic_unit.sv", 25: 
+
+*Error* failed to find identifier fu_data_i.trans_id
+"/home/host/cva6/cordic_unit/cordic_unit.sv", 34: 
+
+*Error* failed to find identifier fu_data_i.operation
+"/home/host/cva6/cordic_unit/cordic_unit.sv", 36: 
+
+*Error* failed to find identifier fu_data_i.operand_a
+"/home/host/cva6/cordic_unit/cordic_unit_tb.sv", 27: 
+
+*Error* failed to find identifier fu_data_i.operation
+"/home/host/cva6/cordic_unit/cordic_unit_tb.sv", 28: 
+
+*Error* failed to find identifier fu_data_i.trans_id
+"/home/host/cva6/cordic_unit/cordic_unit_tb.sv", 29: 
+
+*Error* failed to find port 'fu_data_i' for instance 'dut'
+"/home/host/cva6/cordic_unit/cordic_unit_tb.sv", 45: 
+
+*Error* failed to find port 'cordic_valid_i' for instance 'dut'
+"/home/host/cva6/cordic_unit/cordic_unit_tb.sv", 46: 
+
+*Error* failed to find port 'result_o' for instance 'dut'
+"/home/host/cva6/cordic_unit/cordic_unit_tb.sv", 47: 
+
+*Error* failed to find port 'cordic_valid_o' for instance 'dut'
+"/home/host/cva6/cordic_unit/cordic_unit_tb.sv", 48: 
+
+*Error* failed to find port 'cordic_ready_o' for instance 'dut'
+"/home/host/cva6/cordic_unit/cordic_unit_tb.sv", 49: 
+
+*Error* failed to find port 'cordic_trans_id_o' for instance 'dut'
+"/home/host/cva6/cordic_unit/cordic_unit_tb.sv", 50: 
+Total	62 error(s),   31 warning(s)

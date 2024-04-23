@@ -1,0 +1,255 @@
+Command: vcs -R -full64 -fsdb +define+FSDB -debug_pp +vcd+vcdpluson -sverilog -l \
+run.log -F ./file.fl -timescale=1ns/1ps -LDFLAGS -Wl,--no-as-needed
+
+Warning-[DEBUG_DEP] Option will be deprecated
+  The option '-fsdb' will be deprecated in a future release.  Please use 
+  '-debug_acc+dmptf -debug_region+cell+encrypt' instead.
+
+                         Chronologic VCS (TM)
+       Version O-2018.09-SP2_Full64 -- Mon Apr 22 17:39:00 2024
+               Copyright (c) 1991-2018 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file './config_pkg.sv'
+Parsing design file './cv32a6_imafc_sv32_config_pkg.sv'
+Parsing design file './riscv_pkg.sv'
+Parsing design file './ariane_pkg.sv'
+Parsing design file './fix_float_conversion.svh'
+Parsing design file './fix642float.sv'
+Parsing included file 'fix_float_conversion.svh'.
+Back to file './fix642float.sv'.
+Parsing design file './float2fix64.sv'
+Parsing included file 'fix_float_conversion.svh'.
+Back to file './float2fix64.sv'.
+Parsing design file './sin_cos.sv'
+Parsing design file './cordic_unit.sv'
+Parsing design file './cordic_unit_tb.sv'
+Top Level Modules:
+       cordic_unit_tb
+TimeScale is 1 ns / 1 ps
+
+Warning-[ENUMASSIGN] Illegal assignment to enum variable
+./sin_cos.sv, 70
+sin_cos, "op0 <= 'b0;"
+  Only expressions of the enum type can be assigned to an enum variable. 
+  The type bit [31:0] is incompatible with the enum 'fu_op'
+  Expression: 'b0
+  Use the static cast operator to convert the expression to enum type.
+
+
+Warning-[ENUMASSIGN] Illegal assignment to enum variable
+./sin_cos.sv, 92
+sin_cos, "op1 <= 'b0;"
+  Only expressions of the enum type can be assigned to an enum variable. 
+  The type bit [31:0] is incompatible with the enum 'fu_op'
+  Expression: 'b0
+  Use the static cast operator to convert the expression to enum type.
+
+
+Warning-[ENUMASSIGN] Illegal assignment to enum variable
+./sin_cos.sv, 122
+sin_cos, "op2 <= 'b0;"
+  Only expressions of the enum type can be assigned to an enum variable. 
+  The type bit [31:0] is incompatible with the enum 'fu_op'
+  Expression: 'b0
+  Use the static cast operator to convert the expression to enum type.
+
+
+Warning-[ENUMASSIGN] Illegal assignment to enum variable
+./sin_cos.sv, 152
+sin_cos, "op3 <= 'b0;"
+  Only expressions of the enum type can be assigned to an enum variable. 
+  The type bit [31:0] is incompatible with the enum 'fu_op'
+  Expression: 'b0
+  Use the static cast operator to convert the expression to enum type.
+
+
+Warning-[ENUMASSIGN] Illegal assignment to enum variable
+./sin_cos.sv, 181
+sin_cos, "op4 <= 'b0;"
+  Only expressions of the enum type can be assigned to an enum variable. 
+  The type bit [31:0] is incompatible with the enum 'fu_op'
+  Expression: 'b0
+  Use the static cast operator to convert the expression to enum type.
+
+
+Warning-[ENUMASSIGN] Illegal assignment to enum variable
+./sin_cos.sv, 209
+sin_cos, "op5 <= 'b0;"
+  Only expressions of the enum type can be assigned to an enum variable. 
+  The type bit [31:0] is incompatible with the enum 'fu_op'
+  Expression: 'b0
+  Use the static cast operator to convert the expression to enum type.
+
+
+Warning-[ENUMASSIGN] Illegal assignment to enum variable
+./sin_cos.sv, 239
+sin_cos, "op6 <= 'b0;"
+  Only expressions of the enum type can be assigned to an enum variable. 
+  The type bit [31:0] is incompatible with the enum 'fu_op'
+  Expression: 'b0
+  Use the static cast operator to convert the expression to enum type.
+
+
+Warning-[ENUMASSIGN] Illegal assignment to enum variable
+./sin_cos.sv, 268
+sin_cos, "op7 <= 0;"
+  Only expressions of the enum type can be assigned to an enum variable. 
+  The type int is incompatible with the enum 'fu_op'
+  Expression: 0
+  Use the static cast operator to convert the expression to enum type.
+
+
+Warning-[ENUMASSIGN] Illegal assignment to enum variable
+./sin_cos.sv, 298
+sin_cos, "op8 <= 'b0;"
+  Only expressions of the enum type can be assigned to an enum variable. 
+  The type bit [31:0] is incompatible with the enum 'fu_op'
+  Expression: 'b0
+  Use the static cast operator to convert the expression to enum type.
+
+
+Warning-[ENUMASSIGN] Illegal assignment to enum variable
+./sin_cos.sv, 328
+sin_cos, "op9 <= 'b0;"
+  Only expressions of the enum type can be assigned to an enum variable. 
+  The type bit [31:0] is incompatible with the enum 'fu_op'
+  Expression: 'b0
+  Use the static cast operator to convert the expression to enum type.
+
+
+Warning-[ENUMASSIGN] Illegal assignment to enum variable
+./sin_cos.sv, 357
+sin_cos, "op10 <= 'b0;"
+  Only expressions of the enum type can be assigned to an enum variable. 
+  The type bit [31:0] is incompatible with the enum 'fu_op'
+  Expression: 'b0
+  Use the static cast operator to convert the expression to enum type.
+
+
+Warning-[ENUMASSIGN] Illegal assignment to enum variable
+./sin_cos.sv, 386
+sin_cos, "op11 <= 'b0;"
+  Only expressions of the enum type can be assigned to an enum variable. 
+  The type bit [31:0] is incompatible with the enum 'fu_op'
+  Expression: 'b0
+  Use the static cast operator to convert the expression to enum type.
+
+
+Warning-[ENUMASSIGN] Illegal assignment to enum variable
+./sin_cos.sv, 415
+sin_cos, "op12 <= 'b0;"
+  Only expressions of the enum type can be assigned to an enum variable. 
+  The type bit [31:0] is incompatible with the enum 'fu_op'
+  Expression: 'b0
+  Use the static cast operator to convert the expression to enum type.
+
+
+Warning-[ENUMASSIGN] Illegal assignment to enum variable
+./sin_cos.sv, 445
+sin_cos, "op13 <= 'b0;"
+  Only expressions of the enum type can be assigned to an enum variable. 
+  The type bit [31:0] is incompatible with the enum 'fu_op'
+  Expression: 'b0
+  Use the static cast operator to convert the expression to enum type.
+
+
+Warning-[ENUMASSIGN] Illegal assignment to enum variable
+./sin_cos.sv, 474
+sin_cos, "op14 <= 'b0;"
+  Only expressions of the enum type can be assigned to an enum variable. 
+  The type bit [31:0] is incompatible with the enum 'fu_op'
+  Expression: 'b0
+  Use the static cast operator to convert the expression to enum type.
+
+
+Warning-[ENUMASSIGN] Illegal assignment to enum variable
+./sin_cos.sv, 503
+sin_cos, "op15 <= 'b0;"
+  Only expressions of the enum type can be assigned to an enum variable. 
+  The type bit [31:0] is incompatible with the enum 'fu_op'
+  Expression: 'b0
+  Use the static cast operator to convert the expression to enum type.
+
+
+Warning-[ENUMASSIGN] Illegal assignment to enum variable
+./sin_cos.sv, 532
+sin_cos, "op16 <= 'b0;"
+  Only expressions of the enum type can be assigned to an enum variable. 
+  The type bit [31:0] is incompatible with the enum 'fu_op'
+  Expression: 'b0
+  Use the static cast operator to convert the expression to enum type.
+
+
+Warning-[ENUMASSIGN] Illegal assignment to enum variable
+./sin_cos.sv, 59
+sin_cos, "assign operation = (valid_i ? operation_i : 'b0);"
+  Only expressions of the enum type can be assigned to an enum variable. 
+  The type logic [31:0] is incompatible with the enum 'fu_op'
+  Expression: (valid_i ? operation_i : 'b0)
+  Use the static cast operator to convert the expression to enum type.
+
+
+Warning-[ENUMASSIGN] Illegal assignment to enum variable
+./cordic_unit_tb.sv, 28
+cordic_unit_tb, "fu_data_i.operation = 'b0;"
+  Only expressions of the enum type can be assigned to an enum variable. 
+  The type bit [31:0] is incompatible with the enum 'fu_op'
+  Expression: 'b0
+  Use the static cast operator to convert the expression to enum type.
+
+
+Warning-[ENUMASSIGN] Illegal assignment to enum variable
+./cordic_unit_tb.sv, 43
+cordic_unit_tb, "fu_data_i.operation = 'b0;"
+  Only expressions of the enum type can be assigned to an enum variable. 
+  The type bit [31:0] is incompatible with the enum 'fu_op'
+  Expression: 'b0
+  Use the static cast operator to convert the expression to enum type.
+
+
+Warning-[ENUMASSIGN] Illegal assignment to enum variable
+./cordic_unit_tb.sv, 55
+cordic_unit_tb, "fu_data_i.operation = 'b0;"
+  Only expressions of the enum type can be assigned to an enum variable. 
+  The type bit [31:0] is incompatible with the enum 'fu_op'
+  Expression: 'b0
+  Use the static cast operator to convert the expression to enum type.
+
+Starting vcs inline pass...
+5 modules and 0 UDP read.
+recompiling module cordic_unit_tb
+	However, due to incremental compilation, only 1 module needs to be compiled. 
+make[1]: Entering directory '/home/host/cva6/cordic_unit/csrc'
+rm -f _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -shared  -Bsymbolic  -o .//../simv.daidir//_csrc0.so objs/amcQw_d.o 
+rm -f _csrc0.so
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv -no-pie    -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ \
+-Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -Wl,--no-as-needed -rdynamic  -Wl,-rpath=/opt/synopsys/vcs201809/linux64/lib \
+-L/opt/synopsys/vcs201809/linux64/lib     _271585_archive_1.so _prev_archive_1.so \
+_csrc0.so  SIM_l.o  _csrc0.so     rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o \
+rmar_llvm_0_0.o          -lzerosoft_rt_stubs -lvirsim -lerrorinf -lsnpsmalloc -lvfs \
+-lvcsnew -lsimprofile -luclinative /opt/synopsys/vcs201809/linux64/lib/vcs_tls.o \
+-Wl,-whole-archive -lvcsucli -Wl,-no-whole-archive        _vcs_pli_stub_.o   /opt/synopsys/vcs201809/linux64/lib/vcs_save_restore_new.o \
+/opt/synopsys/verdi201809/share/PLI/VCS/LINUX64/pli.a -ldl  -lc -lm -lpthread -ldl \
+
+../simv up to date
+make[1]: Leaving directory '/home/host/cva6/cordic_unit/csrc'
+Command: /home/host/cva6/cordic_unit/./simv +define+FSDB +vcd+vcdpluson -a run.log
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-SP2_Full64; Runtime version O-2018.09-SP2_Full64;  Apr 22 17:39 2024
+VCD+ Writer O-2018.09-SP2_Full64 Copyright (c) 1991-2018 by Synopsys Inc.
+$stop at time 402000 Scope: cordic_unit_tb File: ./cordic_unit_tb.sv Line: 62
+
+ucli% exit
+            V C S   S i m u l a t i o n   R e p o r t 
+Time: 402000 ps
+CPU Time:      0.580 seconds;       Data structure size:   0.1Mb
+Mon Apr 22 17:40:07 2024
+CPU time: .862 seconds to compile + .576 seconds to elab + .384 seconds to link + .643 seconds in simulation

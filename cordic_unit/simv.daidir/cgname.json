@@ -1,0 +1,44 @@
+{
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        7
+    ],
+    "riscv": [
+        "riscv",
+        "FtHG5",
+        "module",
+        4
+    ],
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        1
+    ],
+    "config_pkg": [
+        "config_pkg",
+        "nUQt0",
+        "module",
+        2
+    ],
+    "cva6_config_pkg": [
+        "cva6_config_pkg",
+        "QJsi0",
+        "module",
+        3
+    ],
+    "ariane_pkg": [
+        "ariane_pkg",
+        "eEMMZ",
+        "module",
+        5
+    ],
+    "cordic_unit_tb": [
+        "cordic_unit_tb",
+        "NZFxG",
+        "module",
+        6
+    ]
+}

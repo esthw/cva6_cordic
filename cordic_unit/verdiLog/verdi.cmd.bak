@@ -1,0 +1,30 @@
+debImport "/home/host/cva6/cordic_unit/sin_cos.sv" \
+          "/home/host/cva6/cordic_unit/float2fix64.sv" \
+          "/home/host/cva6/cordic_unit/fix642float.sv" \
+          "/home/host/cva6/cordic_unit/cordic_unit.sv" \
+          "/home/host/cva6/cordic_unit/cordic_unit_tb.sv" "-sv" -path \
+          {/home/host/cva6/cordic_unit}
+nsMsgSwitchTab -tab general
+debImport "/home/host/cva6/cordic_unit/sin_cos.sv" \
+          "/home/host/cva6/cordic_unit/float2fix64.sv" \
+          "/home/host/cva6/cordic_unit/fix642float.sv" \
+          "/home/host/cva6/cordic_unit/cordic_unit.sv" \
+          "/home/host/cva6/cordic_unit/cordic_unit_tb.sv" "-2009" -path \
+          {/home/host/cva6/cordic_unit}
+nsMsgSwitchTab -tab general
+debImport "/home/host/cva6/cordic_unit/sin_cos.sv" \
+          "/home/host/cva6/cordic_unit/float2fix64.sv" \
+          "/home/host/cva6/cordic_unit/fix642float.sv" \
+          "/home/host/cva6/cordic_unit/cordic_unit.sv" \
+          "/home/host/cva6/cordic_unit/cordic_unit_tb.sv" "-sv" -path \
+          {/home/host/cva6/cordic_unit}
+nsMsgSwitchTab -tab trace
+nsMsgSwitchTab -tab search
+nsMsgSwitchTab -tab intercon
+nsMsgSwitchTab -tab general
+nsMsgSwitchTab -tab cmpl
+nsMsgSwitchTab -tab general
+srcDeselectAll -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+nsMsgSwitchTab -tab cmpl
+debExit
